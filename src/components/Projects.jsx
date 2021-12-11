@@ -86,7 +86,7 @@ function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/dheerajbisht362/constructWeekPorterClone"
+                href="https://dheerajbisht362.github.io/constructWeekPorterClone/home.html"
               >
                 <button type="button" className="btn btn-primary">
                   Demo
@@ -122,7 +122,6 @@ function Projects() {
               </a>
             </div>
           </div>
-       
         </div>
       </div>
     </div>
