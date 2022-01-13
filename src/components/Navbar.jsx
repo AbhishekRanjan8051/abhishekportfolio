@@ -82,14 +82,14 @@ function Navbar() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/AbhishekRanjan8051"
+            href="https://www.linkedin.com/in/abhishek-ranjan-8051/"
           >
             <i className="fab fa-linkedin"></i>
           </a>
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/AbhishekRanjan8051"
+            href="https://medium.com/@abhishekranjan8051"
           >
             <i className="fab fa-medium"></i>
           </a>
