@@ -58,7 +58,7 @@ function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/MadhanDevlpr/Js-Clock"
+                href="https://github.com/AbhishekRanjan8051/lovelula"
               >
                 <button type="button" className="btn btn-primary">
                   Demo
@@ -114,7 +114,7 @@ function Projects() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://github.com/AbhishekRanjan8051/abhishek-masai/tree/master/unit-4/React/assingments/tic_toe_tic"
+                href="https://tic-toe-tic-abhishekranjan8051.vercel.app/"
               >
                 <button type="button" className="btn btn-primary">
                   Demo
