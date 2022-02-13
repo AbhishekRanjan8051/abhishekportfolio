@@ -17,9 +17,9 @@ const Header = () => {
             loop={Infinity}
             steps={[
               "Full Stack Developer 💻",
-              2000,
+              4000,
               "MERN Stack Developer",
-              3000,
+              2000,
             ]}
             wrapper="b"
           />
