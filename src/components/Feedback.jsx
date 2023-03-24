@@ -5,7 +5,7 @@ function Feedback() {
     <div className="feedbk" id="feedback">
       <h1>Feedback</h1>
       <br />
-      <p>This feedback form works with formcarry.</p>
+      <p>After sending the feedback, I will reached you as soon as possible.</p>
       <form
         action="https://formcarry.com/s/bUQb-uL9QE2"
         method="POST"
