@@ -48,21 +48,24 @@ function About() {
         />
         <p>
           I'm Abhishek Ranjan, I'm a Dedicated and aspiring full-stack web
-          developer with specialization in MERN stack. Looking forward to
-          contributing my skills and knowledge towards the development of the
-          organization and achieving its goals while gaining hands-on technical
-          expertise.
+          developer with specialization in MERN & PERN stack. Currently I am
+          Working with Indus Net Technologies Compnay as a Full Stack Developer.
+          Looking forward to contributing my skills and knowledge towards the
+          development of the organization and achieving its goals while gaining
+          hands-on technical expertise.
         </p>
 
         <Boxdiv>
           <Eduction>
-            <h2 style={{ color: "white" }}>Eduction</h2>
+            <br />
+            <h2 style={{ color: "black" }}>Eduction</h2>
+            <br />
             <h4>B.Sc (Mathematics)</h4>
             <a
               href="https://lnmu.ac.in/"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", color: "blue" }}
             >
               <span>Lalit Narayan Mithila University, Darbhanga</span>
             </a>
@@ -79,7 +82,7 @@ function About() {
               href="https://schools.org.in/samastipur/10191913003/m-f-d-k-college-baghla.html"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", color: "blue" }}
             >
               <span> M.F.D.K. COLLEGE BAGHLA , Samastipur</span>
             </a>
@@ -96,9 +99,11 @@ function About() {
               href="https://schools.org.in/samastipur/10190900204/b-r-b-high-school-andour.html"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: "none" }}
+              style={{ textDecoration: "none", color: "blue" }}
             >
-              <span>B.R.B High School Andour, Mohiuddin Nagar(Samastipur)</span>
+              <span>
+                B.R.B High School Andour, Mohiuddin Nagar(Samastipur),Bihar
+              </span>
               <a
                 href="https://drive.google.com/file/d/1Q30tUcPfi6O8LylTPe8UouTheGdcvNd4/view?usp=sharing"
                 target="_blank"
@@ -109,21 +114,44 @@ function About() {
             </a>
           </Eduction>
           <Online>
+            <br />
             <h3 style={{ color: "black" }}>Licenses & Certifications</h3>
             <br />
             <hr />
             <span style={{ fontWeight: "bold" }}>
               Introduction to Programming Using HTML
             </span>
-            <div style={{ color: "blue", fontWeight: "bold" }}>
+            <div
+              style={{ color: "blue", fontWeight: "bold", cursor: "pointer" }}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1jALjhc6vJ453pRvG77YDuiAgWBvkR_cI/view",
+                  "_blank"
+                );
+              }}
+            >
               ➡️ Great Learning
             </div>
             <hr />
             <span style={{ fontWeight: "bold" }}>HTML5 and CSS3</span>
-            <div style={{ color: "blue", fontWeight: "bold" }}>➡️ Cutshort</div>
+            <div
+              style={{ color: "blue", fontWeight: "bold", cursor: "pointer" }}
+            >
+              ➡️ Cutshort
+            </div>
             <hr />
             <span style={{ fontWeight: "bold" }}>Marketing Internship</span>
-            <div>➡️ MyCaptain</div>
+            <div
+              style={{ color: "blue", fontWeight: "bold", cursor: "pointer" }}
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/file/d/1VKT2qw67vzpt6-YyszzxRXAkz7GpdG_E/view",
+                  "_blank"
+                );
+              }}
+            >
+              ➡️ MyCaptain
+            </div>
             <hr />
           </Online>
         </Boxdiv>
